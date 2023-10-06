@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/content.css">
   </head>
   <body>
     
@@ -20,17 +21,16 @@
       <div class="header-left">
         <nav class="navbar navbar-expand-sm bg-body-tertiary" class="nav-bar">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Me</a>
+                  <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"></a>
+                  <a class="nav-link" href="#">About Me</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,23 +49,12 @@
       </div>
 
       <div class="header-right">
-        <i class="fa-brands fa-html5 fa-xl" id="html"></i>
-        <i class="fa-brands fa-css3-alt fa-xl" id="css"></i>
-        <i class="fa-brands fa-square-js fa-xl" id="javascript"></i>
-        <i class="fa-brands fa-bootstrap fa-xl" id="bootstrap"></i>
-        <i class="fa-brands fa-python fa-xl" id="python"></i>
-        <i class="fab fa-git-alt fa-xl" id="git" aria-hidden="true"></i>
         <i class="fab fa-github-square fa-2xl" id="github" aria-hidden="true"></i></i>
         <i class="fab fa-linkedin fa-2xl" id="linkedin" aria-hidden="true"></i>  
       </div>
     </div>
 
-
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade hero-container" data-ride="carousel">
           <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -75,51 +64,51 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
           </ol>
-          <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <img class="d-block w-100" src="assets/1.JPG" alt="First slide">
+          <div class="carousel-inner c-container">
+              <div class="carousel-item active" >
+                  <img class="d-block w-100 c-img" src="assets/1.JPG" alt="First slide">
                   <div class="carousel-caption d-none d-md-block">
                       <h5>My Caption Title (1st Image)</h5>
                       <p>The whole caption will only show up if the screen is at least medium size.</p>
                   </div>
               </div>
               <div class="carousel-item">
-                  <img class="d-block w-100" src="assets/2.JPG" alt="Second slide">
+                  <img class="d-block w-100 c-img" src="assets/2.JPG" alt="Second slide">
                   <div class="carousel-caption d-none d-md-block">
                     <h5>My Caption Title (1st Image)</h5>
                     <p>The whole caption will only show up if the screen is at least medium size.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                  <img class="d-block w-100" src="assets/3.JPG" alt="Third slide">
+                  <img class="d-block w-100 c-img" src="assets/3.JPG" alt="Third slide">
                   <div class="carousel-caption d-none d-md-block">
                     <h5>My Caption Title (1st Image)</h5>
                     <p>The whole caption will only show up if the screen is at least medium size.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="assets/4.JPG" alt="Third slide">
+                <img class="d-block w-100 c-img" src="assets/4.JPG" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>My Caption Title (1st Image)</h5>
                   <p>The whole caption will only show up if the screen is at least medium size.</p>
               </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/5.JPG" alt="Third slide">
+                <img class="d-block w-100 c-img" src="assets/5.JPG" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>My Caption Title (1st Image)</h5>
                   <p>The whole caption will only show up if the screen is at least medium size.</p>
               </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/6.JPG" alt="Third slide">
+                <img class="d-block w-100 c-img" src="assets/6.JPG" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>My Caption Title (1st Image)</h5>
                   <p>The whole caption will only show up if the screen is at least medium size.</p>
               </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/7.JPG" alt="Third slide">
+                <img class="d-block w-100 c-img" src="assets/7.JPG" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>My Caption Title (1st Image)</h5>
                   <p>The whole caption will only show up if the screen is at least medium size.</p>
@@ -137,16 +126,14 @@
           </a>
       </div>
 
-
-      <div class="card" style="width: 18rem;">
-        <img src="assets/1.JPG" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+      <div class="languages">
+        <i class="fa-brands fa-html5 fa-xl" id="html">HTML</i>
+        <i class="fa-brands fa-css3-alt fa-xl" id="css">CSS</i>
+        <i class="fa-brands fa-square-js fa-xl" id="javascript">JavaScript</i>
+        <i class="fa-brands fa-bootstrap fa-xl" id="bootstrap">Bootstrap</i>
+        <i class="fa-brands fa-python fa-xl" id="python">Python</i>
+        <i class="fab fa-git-alt fa-xl" id="git" aria-hidden="true">Git</i>  
       </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
