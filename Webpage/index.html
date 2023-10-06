@@ -8,27 +8,58 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/sidebar.css">
   </head>
   <body>
-      <nav class="topnavigation" aria-label="breadcrumb">
-        <div class="leftsection">Logo</div>
-        <div class="midsection">
-            <input type="text" class="search" placeholder="Search">
-            <button class="searchbutton">Search</button>
-        </div>
-        <div class="rightsection">
-            <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Library</a></li>
-            <li class="breadcrumb-item"><a href="#">Album</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Data</li>
-          </ol>
-        </div>
-      </nav>
+    
+    <div class="header">
+      <div class="header-left">
+        <nav class="navbar navbar-expand-sm bg-body-tertiary" class="nav-bar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Portfolio
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="header-right">
+        <i class="fa-brands fa-html5 fa-xl" id="html"></i>
+        <i class="fa-brands fa-css3-alt fa-xl" id="css"></i>
+        <i class="fa-brands fa-square-js fa-xl" id="javascript"></i>
+        <i class="fa-brands fa-bootstrap fa-xl" id="bootstrap"></i>
+        <i class="fa-brands fa-python fa-xl" id="python"></i>
+        <i class="fab fa-git-alt fa-xl" id="git" aria-hidden="true"></i>
+        <i class="fab fa-github-square fa-2xl" id="github" aria-hidden="true"></i></i>
+        <i class="fab fa-linkedin fa-2xl" id="linkedin" aria-hidden="true"></i>  
+      </div>
+    </div>
+
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -104,6 +135,16 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
           </a>
+      </div>
+
+
+      <div class="card" style="width: 18rem;">
+        <img src="assets/1.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
 
     <!-- Optional JavaScript -->
