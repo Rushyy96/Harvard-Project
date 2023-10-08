@@ -9,21 +9,18 @@
 }
 .c-container
 {
-    width: 95%;
+    width: 75%;
     height: 60vh;
     margin-left: auto;
     margin-right: auto;
-}
-.hero-container
-{
-    padding-top: 0.25em;
+    align-items: center;
 }
 .languages-container
 {
     display: flex;
     justify-content: space-evenly;
     flex-shrink: 0;
-    padding-top: 3em;
+    padding-top: 2em;
     padding-left: 15%;
     padding-right: 15%;
     margin-left: auto;
@@ -32,6 +29,10 @@
 .language-row
 {
     text-align: center;
+}
+.hero-container
+{
+    margin: 0px 10%;
 }
 #html,
 #css,
