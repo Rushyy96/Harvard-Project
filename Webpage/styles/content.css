@@ -7,7 +7,6 @@
     object-fit: cover;
     object-position: center;
 }
-
 .c-container
 {
     width: 95%;
@@ -15,39 +14,42 @@
     margin-left: auto;
     margin-right: auto;
 }
-
 .hero-container
 {
     padding-top: 0.25em;
 }
-.languages
+.languages-container
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-shrink: 0;
     padding-top: 3em;
+    padding-left: 15%;
+    padding-right: 15%;
     margin-left: auto;
     margin-right: auto;
 }
-
+.language-row
+{
+    text-align: center;
+}
 #html,
 #css,
 #javascript,
 #bootstrap,
 #python,
 #git
-
 {
+    color: rgb(255, 255, 255);
+    background-color: black;
     font-size: 2em;
+    margin: 30px;
     box-shadow: 
-    2px 2px #00000080, 10px 1px 12px #00000080,
-    2px 2px 10px #00000080, 2px 2px 3px #00000080,
-    2px 2px 10px #00000080, 2px 2px 3px #00000080,
+    2px 2px 2px #00000080, 10px 1px 4px #00000080,
+    2px 2px 5px #00000080, 2px 2px 8px #00000080,
     inset 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
-    inset 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
-    inset 2px 2px 10px #00000080, inset 2px 2px 10px, #00000080;
-    border-radius: 29px;
-    margin: 0 40px;
+    inset 2px 2px 3px #00000080, inset 2px 2px 10px #00000080;
+    border-radius: 10px;
     animation: animate 2s linear infinite;
     text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff,
     0 0 150px #0072ff, 0 0 200px #0072ff;
@@ -76,7 +78,6 @@
 {
     animation-delay: 0.9s;
 }
-
 @keyframes animate
 {
     from
