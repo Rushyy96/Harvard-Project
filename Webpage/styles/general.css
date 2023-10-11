@@ -8,7 +8,12 @@ p
 {
   color: white;
 }
+a, a:hover
+{
+  color: white;
+}
 .carousel-inner
 {
 margin-top: 66px;
 }
+
